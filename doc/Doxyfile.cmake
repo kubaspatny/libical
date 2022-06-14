@@ -93,9 +93,9 @@ FILE_PATTERNS          = *.cpp \
                          *.md \
                          *.dox
 RECURSIVE              = YES
-EXCLUDE                = @CMAKE_SOURCE_DIR@/src/java \
-                         @CMAKE_SOURCE_DIR@/src/php \
-                         @CMAKE_SOURCE_DIR@/src/python
+EXCLUDE                = @PROJECT_SOURCE_DIR@/src/java \
+                         @PROJECT_SOURCE_DIR@/src/php \
+                         @PROJECT_SOURCE_DIR@/src/python
 EXCLUDE_SYMLINKS       = NO
 EXCLUDE_PATTERNS       = */.svn/* \
                          */.git/* \
@@ -111,7 +111,7 @@ EXCLUDE_PATTERNS       = */.svn/* \
 EXAMPLE_PATH           =
 EXAMPLE_PATTERNS       = *
 EXAMPLE_RECURSIVE      = NO
-IMAGE_PATH             = @CMAKE_SOURCE_DIR@/doc
+IMAGE_PATH             = @PROJECT_SOURCE_DIR@/doc
 INPUT_FILTER           =
 FILTER_PATTERNS        =
 FILTER_SOURCE_FILES    = NO
